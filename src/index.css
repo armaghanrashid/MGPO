@@ -1,0 +1,62 @@
+:root {
+  color-scheme: light;
+  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+  --font-body:
+    "Avenir Next", "Segoe UI", "Helvetica Neue", "Nimbus Sans", sans-serif;
+  --color-ink: #122b29;
+  --color-moss: #1b6b5f;
+  --color-muted: #5f726f;
+  --color-sand: #f8f5ef;
+  --color-cream: #fffdf8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background:
+    radial-gradient(circle at top left, rgba(247, 175, 116, 0.16), transparent 28%),
+    radial-gradient(circle at 85% 15%, rgba(27, 107, 95, 0.12), transparent 22%),
+    linear-gradient(180deg, var(--color-cream), var(--color-sand));
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(18, 43, 41, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(18, 43, 41, 0.02) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(circle at center, black, transparent 78%);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
