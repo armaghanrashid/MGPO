@@ -188,22 +188,22 @@ export const dictionary: Record<Language, LanguageCopy> = {
     nav: {
       home: 'Overview',
       pricing: 'Pricing',
-      demo: 'Live Demo',
+      demo: 'Platform',
       reset: 'Reset Demo',
       bilingual: 'EN / FR',
     },
     ctas: {
-      seeDemo: 'Open live workspace',
+      seeDemo: 'Open platform',
       viewPricing: 'See pricing',
-      backToDemo: 'Back to workspace',
+      backToDemo: 'Back to platform',
       launchMontreal: 'Built for Montreal nonprofits',
       openVolunteerPage: 'Open volunteer page',
       reviewPricing: 'Review plans',
-      resetDemo: 'Restore sample data',
+      resetDemo: 'Reset workspace',
     },
     home: {
       eyebrow: 'Montreal-first volunteer operations platform',
-      title: 'A bilingual volunteer system that feels launch-ready, not classroom-fake.',
+      title: 'Volunteer operations software that centralizes applications, onboarding, training, and ongoing engagement.',
       subtitle:
         'Voluntreal centralizes applications, volunteer profiles, onboarding timelines, training, smart matching, and hours tracking for Montreal nonprofits that need one clean operating picture.',
       proofLabel: 'Montreal-ready',
@@ -232,7 +232,7 @@ export const dictionary: Record<Language, LanguageCopy> = {
         {
           kicker: '03',
           title: 'Matching and communication',
-          body: 'Role-based shortlists, reusable bilingual outreach, and premium match caps that create a real product upsell.',
+          body: 'Role-based shortlists, reusable outreach, and plan-based match limits for growing teams.',
         },
         {
           kicker: '04',
@@ -250,15 +250,15 @@ export const dictionary: Record<Language, LanguageCopy> = {
           body: 'KPI-driven reporting with hours, retention proxy, satisfaction feedback, matches, trainings, and interviews.',
         },
       ],
-      whyTitle: 'What makes the concept stronger than a generic competitor',
+      whyTitle: 'What makes the platform stronger than generic volunteer software',
       whyBullets: [
         'Built specifically for Montreal organizations that operate across bilingual, multi-site teams.',
         'Turns premium features into an obvious value ladder instead of a vague enterprise quote.',
         'Includes volunteer-facing timesheets, feedback, incident reporting, and supervisor contacts.',
       ],
-      launchTitle: 'Presentation-safe, launch-aware',
+      launchTitle: 'Built for operational clarity',
       launchBody:
-        'The interface is seeded with realistic local data and persists in the browser, so your class demo behaves like a real product without backend risk.',
+        'Voluntreal gives teams one place to manage intake, onboarding, scheduling, training completion, and volunteer activity across organizations and sites.',
       differentiators: [
         {
           title: 'Clear monetization',
@@ -276,9 +276,9 @@ export const dictionary: Record<Language, LanguageCopy> = {
     },
     pricing: {
       eyebrow: 'Transparent CAD pricing',
-      title: 'A pricing ladder that sells the product for you.',
+      title: 'Pricing plans for growing volunteer teams.',
       subtitle:
-        'Each plan unlocks a stronger operating model, with visible volunteer caps and smart match limits that make the upgrade path easy to explain live.',
+        'Each plan supports a different level of coordination, with clear volunteer caps, smart match limits, and operational tools for larger teams.',
       addOnsTitle: 'Add-ons',
       addOns: [
         'Extra batch of 25 volunteers: $10 CAD / month',
@@ -296,10 +296,10 @@ export const dictionary: Record<Language, LanguageCopy> = {
       ],
     },
     demo: {
-      workspaceEyebrow: 'Prototype app workspace',
+      workspaceEyebrow: 'Operations platform',
       workspaceTitle: 'Montreal volunteer ops command center',
       workspaceSubtitle:
-        'Everything below is interactive and stored locally in the browser so the demo behaves like a real product during the presentation.',
+        'Centralize applications, volunteer records, training progress, interviews, reminders, and reporting in one operational view.',
       planLabel: 'Plan',
       moduleLabel: 'Workspace module',
       premiumGateTitle: 'Momentum unlocks this workflow',
@@ -308,7 +308,7 @@ export const dictionary: Record<Language, LanguageCopy> = {
       networkGateTitle: 'Network unlocks incident reporting',
       networkGateBody:
         'Serious multi-site oversight requires incident documentation, escalations, and consolidated reporting.',
-      metricsTitle: 'Live operating snapshot',
+      metricsTitle: 'Operating snapshot',
       metrics: {
         hours: 'Volunteer hours',
         retention: 'Retention proxy',
@@ -364,7 +364,7 @@ export const dictionary: Record<Language, LanguageCopy> = {
       },
       interviews: {
         title: 'Interview hub',
-        subtitle: 'Offer guided time slots and schedule directly from the workspace.',
+        subtitle: 'Offer guided time slots and schedule directly from the platform.',
         volunteerLabel: 'Assign volunteer',
         schedule: 'Book interview',
         booked: 'Booked',
@@ -379,7 +379,7 @@ export const dictionary: Record<Language, LanguageCopy> = {
       },
       volunteer: {
         breadcrumb: 'Volunteer page',
-        title: 'Volunteer personal workspace',
+        title: 'Volunteer portal',
         profileTitle: 'Profile and readiness',
         profileSubtitle: 'Keep information current so matching and onboarding stay accurate.',
         timesheetTitle: 'Timesheet and feedback',
@@ -465,22 +465,22 @@ export const dictionary: Record<Language, LanguageCopy> = {
     nav: {
       home: 'Apercu',
       pricing: 'Tarifs',
-      demo: 'Demo',
+      demo: 'Plateforme',
       reset: 'Reinitialiser',
       bilingual: 'FR / EN',
     },
     ctas: {
-      seeDemo: 'Ouvrir l espace de demo',
+      seeDemo: 'Ouvrir la plateforme',
       viewPricing: 'Voir les tarifs',
-      backToDemo: 'Retour a l espace',
+      backToDemo: 'Retour a la plateforme',
       launchMontreal: 'Concu pour les OBNL de Montreal',
       openVolunteerPage: 'Ouvrir la page benevole',
       reviewPricing: 'Voir les forfaits',
-      resetDemo: 'Restaurer les donnees',
+      resetDemo: 'Reinitialiser l espace',
     },
     home: {
       eyebrow: 'Plateforme de gestion benevole pensee pour Montreal',
-      title: 'Un systeme benevole bilingue qui semble pret pour un vrai lancement.',
+      title: 'Un logiciel de gestion benevole qui centralise les candidatures, l integration, la formation et le suivi continu.',
       subtitle:
         'Voluntreal centralise les candidatures, les profils, les parcours d integration, la formation, le jumelage intelligent et le suivi des heures pour les OBNL montrealais.',
       proofLabel: 'Pret pour Montreal',
@@ -509,7 +509,7 @@ export const dictionary: Record<Language, LanguageCopy> = {
         {
           kicker: '03',
           title: 'Jumelage et communication',
-          body: 'Des listes courtes par role, des messages bilingues reutilisables et des plafonds premium qui soutiennent l argumentaire commercial.',
+          body: 'Des listes courtes par role, des messages reutilisables et des limites par forfait pour les equipes en croissance.',
         },
         {
           kicker: '04',
@@ -527,15 +527,15 @@ export const dictionary: Record<Language, LanguageCopy> = {
           body: 'Des indicateurs sur les heures, la retention, la satisfaction, les jumelages, les formations et les entrevues.',
         },
       ],
-      whyTitle: 'Pourquoi le concept est plus solide qu un concurrent generique',
+      whyTitle: 'Pourquoi la plateforme est plus solide qu un logiciel benevole generique',
       whyBullets: [
         'Concu precisement pour des organismes montrealais avec des equipes bilingues et multisites.',
         'Transforme les fonctions premium en progression de valeur claire plutot qu en soumission floue.',
         'Inclut les feuilles de temps, la retroaction, les incidents et les contacts de supervision du cote benevole.',
       ],
-      launchTitle: 'Fiable pour la presentation, credible pour un lancement',
+      launchTitle: 'Concu pour une gestion operationnelle claire',
       launchBody:
-        'L interface est alimentee par des donnees locales realistes et conserve l etat dans le navigateur, donc la demonstration agit comme un vrai produit sans risque backend.',
+        'Voluntreal regroupe la gestion des candidatures, l integration, la planification, la formation et le suivi benevole dans une seule vue operationnelle.',
       differentiators: [
         {
           title: 'Monetisation claire',
@@ -553,9 +553,9 @@ export const dictionary: Record<Language, LanguageCopy> = {
     },
     pricing: {
       eyebrow: 'Tarification transparente en CAD',
-      title: 'Une grille tarifaire qui vend le produit toute seule.',
+      title: 'Des forfaits pour les equipes benevoles en croissance.',
       subtitle:
-        'Chaque forfait debloque un meilleur modele operatoire, avec des plafonds benevoles et des limites de jumelage visibles qui rendent l evolution facile a expliquer.',
+        'Chaque forfait correspond a un niveau de coordination different, avec des plafonds benevoles clairs, des limites de jumelage et des outils adaptes aux grandes equipes.',
       addOnsTitle: 'Options',
       addOns: [
         'Bloc supplementaire de 25 benevoles: 10 $ CAD / mois',
@@ -573,10 +573,10 @@ export const dictionary: Record<Language, LanguageCopy> = {
       ],
     },
     demo: {
-      workspaceEyebrow: 'Espace prototype',
+      workspaceEyebrow: 'Plateforme operationnelle',
       workspaceTitle: 'Centre de commande benevole de Montreal',
       workspaceSubtitle:
-        'Tout ce qui suit est interactif et enregistre localement dans le navigateur pour que la demo se comporte comme un vrai produit.',
+        'Centralisez les candidatures, les profils benevoles, la formation, les entrevues, les rappels et les rapports dans une seule vue operationnelle.',
       planLabel: 'Forfait',
       moduleLabel: 'Module',
       premiumGateTitle: 'Momentum debloque ce flux',
@@ -585,7 +585,7 @@ export const dictionary: Record<Language, LanguageCopy> = {
       networkGateTitle: 'Network debloque les incidents',
       networkGateBody:
         'Une supervision multisite serieuse exige de la documentation d incident, des escalades et des rapports consolides.',
-      metricsTitle: 'Apercu operationnel en direct',
+      metricsTitle: 'Apercu operationnel',
       metrics: {
         hours: 'Heures benevoles',
         retention: 'Indice de retention',
@@ -641,7 +641,7 @@ export const dictionary: Record<Language, LanguageCopy> = {
       },
       interviews: {
         title: 'Hub des entrevues',
-        subtitle: 'Proposez des plages guidees et reservez directement depuis l espace.',
+        subtitle: 'Proposez des plages guidees et reservez directement depuis la plateforme.',
         volunteerLabel: 'Assigner le benevole',
         schedule: 'Reserver l entrevue',
         booked: 'Reserve',
@@ -656,7 +656,7 @@ export const dictionary: Record<Language, LanguageCopy> = {
       },
       volunteer: {
         breadcrumb: 'Page benevole',
-        title: 'Espace personnel du benevole',
+        title: 'Portail benevole',
         profileTitle: 'Profil et preparation',
         profileSubtitle: 'Gardez les informations a jour pour que le jumelage et l integration restent fiables.',
         timesheetTitle: 'Feuille de temps et retroaction',
